@@ -1,0 +1,9 @@
+{
+    "_comment": "regular expression in json is a little bit different, we use \\ to represent backslash",
+    "urls": ["http://blog.jobbole.com/all-posts/"],
+    "rules":{
+        "include":[".*(blog.jobbole.com).*",".*(blog.jobbole.com/\\d+).*"],
+        "exclude": [".*(all-posts).*"],
+        "textextraction":["(.*?Java.*)", "(.*?Python.*)"]
+    }
+}
