@@ -1,21 +1,21 @@
 # Crawl-Jobbole-Scrapy
 
-### <ins>Intro to Crawl-Jobbole-Scrapy</ins> 
+### 1. Intro to Crawl-Jobbole-Scrapy  
 
 The aim is to design a Crawler to get all article in wwww.jobbole.com   
 
 ---
-### Dive in the wwww.jobbole.com
+### 2. Dive in the wwww.jobbole.com
 Go to http://blog.jobbole.com/all-posts/ , we can get all articles start from here.    
 
 ---
-### Frameworks and Libraries applies 
+### 3. Frameworks and Libraries applies 
 Based on <b>Scrapy</b> Framework with <b>Python</b>, utilized <b>xpath</b> and <b>css selector</b> to get the exact content from HTML. Used <b>re</b> to apply regular expression for processing string.
 Store extracted data in <b>MySQL</b>.
 
 ---
 
-### Make some change of rules.
+### 4. Make some change of rules.
 Right now, the input is json file, since we will do regular expression matching later, I wrote every rule as follows:
 ```
   "rules":{
@@ -30,7 +30,7 @@ Like
 ```
 stands for that the url should contain "blog.jobbole.com".   
 
-### What job does each file complete
+### 5. What job does each file complete
 There are four import files, they are <b>jobbole.py</b>, <b>items.py</b>, <b>pipelines.py</b>, <b>settings.py</b>   
 
 - for <b>jobbole.py</b>:   
@@ -61,7 +61,7 @@ MYSQL_PASSWORD = "root"
 PORT = 8889
 ```
 
-### How to run
+### 6. How to run
 - create a table with following sql:
 ```
 CREATE TABLE `jobbole_article` (
