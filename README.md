@@ -2,7 +2,7 @@
 
 ### <u>Intro to Crawl-Jobbole-Scrapy</u> 
 
-The aim is to design a Crawler to get all article in wwww.jobbole.com 
+<u>The aim is to design a Crawler to get all article in wwww.jobbole.com</u> 
 
 ---
 ### Dive in the wwww.jobbole.com
