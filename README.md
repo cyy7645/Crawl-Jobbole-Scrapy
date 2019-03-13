@@ -13,6 +13,7 @@ Go to http://blog.jobbole.com/all-posts/ , we can get all articles start from he
 Based on <b>Scrapy</b> Framework with <b>Python</b>, utilized <b>xpath</b> and <b>css selector</b> to get the exact content from HTML. Used <b>re</b> to apply regular expression for processing string.
 Store extracted data in <b>MySQL</b>.
 
+---
 
 ### Make some change of rules.
 Right now, the input is json file, since we will do regular expression matching later, I wrote every rule as follows:
