@@ -79,6 +79,8 @@ CREATE TABLE `jobbole_article` (
   `textExtraction` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+it would be like this:
+!(https://github.com/cyy7645/Crawl-Jobbole-Scrapy/blob/master/imgs/table.png)  
 
 - change you setting of mysql. 
 ```
