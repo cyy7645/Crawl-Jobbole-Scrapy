@@ -1,8 +1,8 @@
 # Crawl-Jobbole-Scrapy
 
-### <u>Intro to Crawl-Jobbole-Scrapy</u> 
+### <ins>Intro to Crawl-Jobbole-Scrapy</ins> 
 
-<u>The aim is to design a Crawler to get all article in wwww.jobbole.com</u> 
+The aim is to design a Crawler to get all article in wwww.jobbole.com   
 
 ---
 ### Dive in the wwww.jobbole.com
