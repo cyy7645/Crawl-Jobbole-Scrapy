@@ -6,8 +6,8 @@ The aim is to design a Crawler to get all article in wwww.jobbole.com
 
 ---
 ### Dive in the wwww.jobbole.com
-Go to http://blog.jobbole.com/all-posts/ , we can get all articles start from here.
-![https://github.com/cyy7645/Crawl-Jobbole-Scrapy/blob/master/imgs/allPosts.png]
+Go to http://blog.jobbole.com/all-posts/ , we can get all articles start from here.  
+!(https://github.com/cyy7645/Crawl-Jobbole-Scrapy/blob/master/imgs/allPosts.png)
 
 ---
 ### Frameworks and Libraries applies 
